@@ -15,4 +15,23 @@ Abalone is an abstract strategy game that takes place on a hexagonal grid. The o
 
 Excel is obviously not the best engine I could have chosen to remake this game in, but it was fun working around the challenges and stretching the power of VBA beyond what it was probably intended for. I learned a lot while making this project. Figuring out how to represent the game's information in the backend was a unique challenge, largely because the rules of this game don't operate on an orthagonal coordinate system. I learned about hexagonal coordinate systems and how I could reference each position on the board with a unique set of numbers assigned to it logically and consistently. I also learned concepts of implementing a turn based board game using code, and feel I could use them to make another game in the same genre of abstract strategy games if I wanted to. Writing the game logic for pushing pieces was an interesting and engaging task.
 
-I almost couldn't take myself away from this project until it was finished!
+In the end I made a codebase I could be proud of. I almost couldn't take myself away from this project until it was finished!
+
+## Craps in Excel
+![Screenshot of Abalone in Excel](CrapsTable.png)
+
+[Project Link](https://github.com/SparklySpartan/CrapsInExcel)
+
+Craps is a popular dice game in casinos. The game revovles around the rolling of two dice. Various bets can be placed in the game of craps, and this version does not have all the bets implemented. 
+
+Here are the bets you can make:
+
+- Pass line bets
+- Come line bets
+- 6 and 8 Hardway bets
+
+One of the things I like about this project is that it incorperates the user dragging around the shapes that represent the chips by hand, just like you would normally if you were editing an excel file. The game allows you to move your chips around but it will not allow you to do so in a way that breaks the rules. 
+
+I also implemented a simple animation for the dice in excel. This is not what Excel was designed to do, and it has a tough time with complex animations, but it can be done.
+
+You can try out the game yourself by downloading the file. Click the chips with dollar amounts displayed on the right to give yourself chips. Drag the chips to the places you want to bet. You may bet on the hard 6 or hard 8 at any time. You may only bet on the comeline while a passline bet is in progress
