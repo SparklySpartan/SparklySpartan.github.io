@@ -42,3 +42,11 @@ You can try out the game yourself by downloading the file. Click the chips with 
 [Project Link](https://github.com/SparklySpartan/ExcelMontecarloSimulator)
 
 This is a program that could be used by a casino owner who wants to experiment and test out alternative rulesets for the game craps. Unlike the previous project which allows the user to play the game, this project simulates a large amount of games and extracts data from their results, it can then tell you whether or not the ruleset you made is profitable.
+
+## Userform Projects
+![Screenshot of Craps Montecarlo Simulator](UserformsScreenshot.png)
+
+Userforms are a solution offered to VBA developers to make applications with more customizable and robust layouts that don't suit themselves to using cells as the interface. This is the Excel file where I sharpened my skills in creating userforms. I created a standard data entry tool, which is a common usage of userforms in Excel, in this case for a database of movies. This tool allows you to traverse the records, change any of the associated fields, add rows to the end of the table and delete rows. 
+
+The second tool to the right of the movie data entry tool is one I made not as much because it's a common use case for userforms, but instead to see how I could take their use further than a standard data entry tool. So I created a simple calculator that supports addition and subtraction, and it also will sing the song "I'm Gonna Be." by The Proclaimers. I wanted to add this other little form I made to demonstrate to potential clients that useforms can be used for many things, not just data entry tools.
+
